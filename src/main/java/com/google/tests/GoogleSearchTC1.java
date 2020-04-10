@@ -29,7 +29,7 @@ public class GoogleSearchTC1 {
             //Check if parameter passed as 'chrome'
             else if(browser.equalsIgnoreCase("chrome")){
                      //set path to chromedriver.exe
-                     System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
+                     System.setProperty("webdriver.chrome.driver","C:\\Softwares\\AutomatonProject\\Drivers\\chromedriver.exe");
                      //create chrome instance
                      driver = new ChromeDriver();
             }

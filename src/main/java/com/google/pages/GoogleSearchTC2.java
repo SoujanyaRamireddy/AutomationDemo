@@ -13,7 +13,7 @@ public class GoogleSearchTC2 {
 	public void TC01() throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\AutomatonProject\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver(); 
 		driver.get("http://google.co.in/");
 		driver.manage().window().maximize();
